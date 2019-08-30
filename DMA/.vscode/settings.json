@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "*.m": "matlab",
+        "gpio.h": "c",
+        "oled.h": "c",
+        "stdlib.h": "c",
+        "pindef.h": "c",
+        "stm32f4xx_rcc.h": "c",
+        "stm32f4xx.h": "c",
+        "bsp_systick.h": "c",
+        "delay.h": "c",
+        "arm_math.h": "c",
+        "test.h": "c",
+        "usart.h": "c",
+        "stm32f4xx_adc.h": "c",
+        "misc.h": "c",
+        "stm32f4xx_conf.h": "c",
+        "bsp_debug_usart.h": "c",
+        "CH452.C": "cpp",
+        "EXAM.C": "cpp",
+        "ch452.h": "c",
+        "CH452W2.C": "cpp"
+    }
+}

@@ -1,0 +1,40 @@
+T0478 033:570 SEGGER J-Link V6.46 Log File (0001ms, 4171ms total)
+T0478 033:570 DLL Compiled: May 23 2019 17:49:56 (0001ms, 4171ms total)
+T0478 033:570 Logging started @ 2019-06-29 11:48 (0001ms, 4171ms total)
+T0478 033:571 JLINK_SetWarnOutHandler(...) (0000ms, 4171ms total)
+T0478 033:571 JLINK_OpenEx(...)
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N: 20090937
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull
+TELNET listener socket opened on port 19021WEBSRV 
+Starting webserver (0025ms, 4196ms total)
+T0478 033:571 WEBSRV Webserver running on local port 19080 (0027ms, 4198ms total)
+T0478 033:571   returns O.K. (0027ms, 4198ms total)
+T0478 033:598 JLINK_GetEmuCaps()  returns 0x88EA5833 (0000ms, 4198ms total)
+T0478 033:598 JLINK_TIF_GetAvailable(...) (0000ms, 4198ms total)
+T0478 033:598 JLINK_SetErrorOutHandler(...) (0000ms, 4198ms total)
+T0478 033:598 JLINK_ExecCommand("ProjectFile = "F:\stm32\f429igt6\PID - ¸±±¾\Project\RVMDK£¨uv5£©\JLinkSettings.ini"", ...).   returns 0x00 (0002ms, 4200ms total)
+T0478 033:602 JLINK_ExecCommand("Device = STM32F429IGTx", ...). Device "STM32F429IG" selected.  returns 0x00 (0004ms, 4204ms total)
+T0478 033:606 JLINK_ExecCommand("DisableConnectionTimeout", ...).   returns 0x01 (0000ms, 4204ms total)
+T0478 033:606 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 4204ms total)
+T0478 033:606 JLINK_GetDLLVersion()  returns 64600 (0000ms, 4204ms total)
+T0478 033:606 JLINK_GetFirmwareString(...) (0000ms, 4204ms total)
+T0478 033:611 JLINK_GetDLLVersion()  returns 64600 (0000ms, 4204ms total)
+T0478 033:611 JLINK_GetCompileDateTime() (0000ms, 4204ms total)
+T0478 033:613 JLINK_GetFirmwareString(...) (0000ms, 4204ms total)
+T0478 033:615 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 4204ms total)
+T0478 033:622 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0001ms, 4205ms total)
+T0478 033:623 JLINK_SetSpeed(5000) (0000ms, 4205ms total)
+T0478 033:623 JLINK_GetId() >0x10B TIF>Found SW-DP with ID 0x6BA02477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF>
+ >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x30 TIF> >0x0D TIF> >0x21 TIF>Active read protected STM32 device detected.
+This could cause problems during flash download.
+Note: Unsecuring will trigger a mass erase of the internal flash. (0016ms, 4221ms total)
+T0478 033:623 Executing default behavior previously saved in the registry.Device will be unsecured now. >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x30 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x30 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x30 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x10B TIF>Found SW-DP with ID 0x6BA02477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF>
+ >0x21 TIF> >0x0D TIF> >0x28 TIF>Scanning AP map to find all available APs >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>AP[3]: Stopped AP scan as end of AP map has been reachedAP[0]: AHB-AP (IDR: 0x84770001)AP[1]: AHB-AP (IDR: 0x84770001)AP[2]: APB-AP (IDR: 0x54770002)
+Iterating through AP map to find AHB-AP to use >0x42 TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x42 TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>AP[0]: Core foundAP[0]: AHB-AP ROM base: 0xE00FE000 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x30 TIF> >0x0D TIF> >0x21 TIF>CPUID register: 0x411FC271. Implementer code: 0x41 (ARM)
+Found Cortex-M7 r1p1, Big endian.Identified core does not match configuration. (Found: Cortex-M7, Configured: Cortex-M4) -- Max. mem block: 0x00002C18
+  ***** Error: Specific core setup failed.  returns 0x00000000 (17557ms, 21762ms total)
+T0478 052:048 JLINK_Close() >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> (0016ms, 21778ms total)
+T0478 052:048  (0016ms, 21778ms total)
+T0478 052:048 Closed (0016ms, 21778ms total)

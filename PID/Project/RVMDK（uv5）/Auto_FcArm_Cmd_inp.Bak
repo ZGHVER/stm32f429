@@ -1,0 +1,5 @@
+..\..\User\src\bsp_lcd.c,
+..\..\User\src\bsp_sdram.c,
+..\..\User\src\bsp_spi_flash.c,
+..\..\User\src\fonts.c 
+TO asssa NOPRINT

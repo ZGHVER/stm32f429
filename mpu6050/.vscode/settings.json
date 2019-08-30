@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "*.m": "matlab",
+        "gpio.h": "c",
+        "oled.h": "c",
+        "stdlib.h": "c",
+        "pindef.h": "c",
+        "stm32f4xx_rcc.h": "c",
+        "stm32f4xx.h": "c",
+        "bsp_systick.h": "c",
+        "delay.h": "c",
+        "inv_mpu_dmp_motion_driver.h": "c",
+        "stm32f4xx_gpio.h": "c",
+        "mpu6050.h": "c"
+    }
+}
